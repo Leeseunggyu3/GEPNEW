@@ -135,6 +135,8 @@ GameObject:
   - component: {fileID: 43958792}
   - component: {fileID: 43958796}
   - component: {fileID: 43958795}
+  - component: {fileID: 43958797}
+  - component: {fileID: 43958798}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -292,6 +294,41 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &43958797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43958791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac6585109d3748c4db0eca63a2c1ec83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  upAnime: PlayerUp
+  downAnime: PlayerDown
+  rightAnime: PlayerRight
+  leftAnime: PlayerLeft
+  deadAnime: PlayerDead
+  angleZ: -90
+--- !u!114 &43958798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43958791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a6917e18a7222d49895eb80f5bf10b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootSpeed: 12
+  shootDelay: 0.25
+  bowPrefab: {fileID: 6078769146279976164, guid: cc9f86e19e60b034f9cab1f66befc969, type: 3}
+  arrowPrefab: {fileID: 38636569697527537, guid: b64d23a450f0783419cb42cedbe1c997, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

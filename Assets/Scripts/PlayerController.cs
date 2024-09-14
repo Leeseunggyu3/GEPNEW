@@ -44,12 +44,15 @@ public class PlayerController : MonoBehaviour
         Vector2 fromPt = transform.position;
         Vector2 toPt = new Vector2(fromPt.x + axisH, fromPt.y + axisV);
         angleZ = GetAngle(fromPt,toPt);
+
+
         //이동 각도에서 방향과 애니메이션 변경
+        //우측 수평선이 0도임. 각도기를 연상
         if(angleZ >= -45 && angleZ < 45)
         {
             nowAnimation = rightAnime;
         }
-        else if (angleZ >= 45 && angleZ <= 135)
+        else if (angleZ >= 45 && angleZ <= 135) 
         {
             nowAnimation = upAnime;
         }
@@ -57,7 +60,7 @@ public class PlayerController : MonoBehaviour
         {
             nowAnimation = downAnime;
         }
-        else
+        else 
         {
             nowAnimation = leftAnime;
         }
@@ -111,10 +114,5 @@ public class PlayerController : MonoBehaviour
             angle = angleZ;
         }
         return angle;
-
-
     }
-
-
-
 }
