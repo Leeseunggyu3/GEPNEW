@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WorldMap.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Dungeon1.unity
+    guid: 3cf92133a82086943935c486126d2705
+  - enabled: 1
+    path: Assets/Scenes/Dummy_001.unity
+    guid: 36db9ea2fc31c424f8e0b11b1b330939
   m_configObjects: {}

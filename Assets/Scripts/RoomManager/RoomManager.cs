@@ -46,7 +46,7 @@ public class RoomManager : MonoBehaviour
     }
               
 
-                // 씬 이동
+    // 씬 이동
     public static void ChangeScene(string scenename, int doornum)
     {
       doorNumber = doornum; // 문 번호를 static 변수에 저장

@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Arrow
   - Exit
+  - Door
+  - ItemBox
+  - Life
+  - Key
   layers:
   - Default
   - TransparentFX

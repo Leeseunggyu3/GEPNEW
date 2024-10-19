@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //출입구 위치
-public enum ExitDirection
+public enum ExitDirection //enum은 열거혀9ㅇ. 서로 연관된 상수의 집합
 {
     right, //오른쪽
     left, //왼쪽
